@@ -1,0 +1,183 @@
+body{
+    margin: 0px;
+    padding:0px;
+    background-clip:url(video/bienvenido-al-canal-oficial-de-walt-disney-studios-latinoamérica-en-youtube.mp4) ;
+    background-image:url(img/back.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+.flex-container{
+    display: flex;
+    border: solid black;
+    padding: 20px;
+    background-color: aqua;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(172, 225, 239);
+    margin: 0px;
+    color: rgb(249, 247, 247);
+    font-family: fantasy;
+
+  
+    
+}
+
+h1{
+    background-color: #f32098;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    border-color: #11d922;
+    
+    
+    
+}
+    
+   
+
+
+
+
+
+section{
+    display: flex;
+   align-items: center;
+    justify-content:space-between;
+font-style: italic;
+font-size: 20px;
+
+    
+}
+
+
+body{
+    background-color: rgb(207, 100, 243);
+   
+ 
+    
+}
+.caja1 {
+    order: 4;
+    border: 3px solid #f00a0a;
+    background-color: rgb(247, 106, 31);
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    margin: 5px;
+}
+
+.caja2 {
+    order: 3;
+    border: 3px solid #11d922;
+    background-color: rgb(239, 11, 102);
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    margin: 5px;
+}
+
+.caja3 {
+    order: 1;
+    border: 3px solid #bb0cfb;
+    background-color: rgb(0, 217, 237);
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    margin: 5px;
+}
+
+.caja4 {
+    order: 1;
+    border: 3px solid #e5c719;
+    background-color: rgb(0, 17, 166);
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    margin: 5px;
+}
+
+
+
+.galery{
+    display: flex;
+    height: 20rem;
+    gap: 1re;
+  
+    
+    
+ 
+}
+.galery > div {
+flex: 1;
+border-radius: 1rem;
+background-position: center;
+background-repeat: no-repeat;
+background-size:  auto 100%;
+transition: all .8s cubic-bezier(.25, .4,  .45, 1.4);
+ 
+
+}
+.galery > div:hover {
+    flex: 5;
+}
+
+
+
+nav {
+    padding: 10px;
+    margin: 15px;
+    
+ 
+   
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 10px;
+  padding: 10px;
+}
+
+
+nav ul li a {
+ text-decoration: none;
+ margin: 10px;
+ padding: 12px;
+ background-color: rgb(120, 185, 243);
+ border-radius: 30px;
+ font-size: 15px;
+font-style: oblique;
+font-family: cursive;
+color: #f32098;
+font-weight: 100px bold solid;
+
+}
